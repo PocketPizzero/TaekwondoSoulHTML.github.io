@@ -1,0 +1,15 @@
+main{
+    color: #222223;
+    padding: 10em 4em;
+    font-size: 1.5em;
+}
+h1{
+    text-align: center;
+}
+.preguntas{
+    display: flex;
+    flex-direction: column;
+}
+.pregunta{
+    padding: 1.5em;
+}

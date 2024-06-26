@@ -1,0 +1,50 @@
+main {
+    padding: 15em 10em;
+    align-items: center;
+}
+h1{
+    top: 15%;
+    right: 50%;
+    position: absolute;
+    font-size: 3em;
+}
+h2{
+    text-align: center;
+}
+a{
+    color: #F4F4FF;
+}
+.barra{
+    font-size: 2em;
+    background-color: #222223;
+    color: #F4F4FF;
+    padding: 2em 2em;
+    position: fixed;
+    top: 8em;
+    left: 2em;
+}
+.articulos-container{
+    text-align: center;
+    font-size: 1.5em;
+    padding-left: 20em;
+    display: flex;
+    flex-direction: column;
+}
+.articulo{
+    max-width: 100%;
+    background-image: linear-gradient(135deg, #0F4485 10%, #D91E2E 90%);
+    color: #F4F4FF;
+    padding: 2em;
+    margin: 2em;
+}
+img{
+    width: 50%;
+}
+button{
+    padding: 1.1em;
+    font-size: 1.5em;
+    border: none;
+    color: #F4F4FF;
+    background-color: #222223;
+    text-decoration: none;
+}

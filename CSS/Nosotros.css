@@ -1,0 +1,80 @@
+main{
+    color: #222223;
+    padding: 10em 12em;
+    font-size: 1.5em;
+}
+#Historia h2, #Taekwondo h2, #Testimonios h2, #Mision_Vision h2,
+#Mision h2, #Vision h2, #Valores h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#Historia{
+    padding: 2em;
+    margin-left: 6em;
+    margin-right: 6em;
+    align-items: center;
+}
+#Taekwondo{
+    background-color: #222223;
+    color: #F4F4FF;
+    align-items: center;
+    margin-left: 6em;
+    margin-right: 6em;
+    padding: 2em ;
+}
+#Testimonios h2{
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+.testimonios-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6em;
+    margin-right: 6em;
+    padding-bottom: 5em;
+    gap: 2em;
+}
+.testimonio{
+    background-color: #F4F4FF;
+    color: #222223;
+    border: solid;
+    border-width: 1.5em;
+    padding: 2em;
+}
+#Mision_Vision{
+    color: #F4F4FF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 6em;
+    margin-right: 6em;
+    gap: 2em;
+}
+#Mision{
+    background-image: radial-gradient(circle, #D91E2E 45%, #bf0062 100%);
+    padding: 2em;
+}
+#Vision{
+    background-image: radial-gradient(circle, #0F4485 45%, #138494 100%);
+    padding: 2em;
+}
+#Valores{
+    margin-top: 2em;
+    background-image: linear-gradient(90deg, #D91E2E 0%, #0F4485 95%);
+    color: #f4f4f7;
+    padding: 1em 0em;
+    text-align: center;
+    margin-left: 6em;
+    margin-right: 6em;
+    
+}
+#Valores ul, #Valores li{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}

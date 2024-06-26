@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Styles.css">
+    <link rel="stylesheet" href="../CSS/Contacto.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <figure>
+                <a href="../index.html"><img src="../Images/SOUL Blanco Transparente.png" alt="Logotipo"></a>
+            </figure>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="ProductosYServicios.html">Productos Servicios</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="PreguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+                    <li><a href="AcercaDe.html">Acerca de</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="Contacto">
+            <section>
+                <article>
+                    <h1>Contacto</h1>
+                    <h2>Horario</h2>
+                    <ul>
+                        <li>Lunes - de 8:00 am a 9:00 pm</li>
+                        <li>Martes - cerrado</li>
+                        <li>Miércoles - de 8:00 am a 9:00 pm</li>
+                        <li>Jueves - de 8:00 am a 9:00 pm</li>
+                        <li>Viernes - de 8:00 am a 9:00 pm</li>
+                        <li>Sábado - de 8:00 am a 9:00 pm</li>
+                        <li>Domingo - cerrado</li>
+                    </ul>
+                    <h2>Direccion</h2>
+                    <p>De la iglesia católica del coyol 200 m norte, 300 m oeste y 100 norte</p>
+                    <h2>Telefono</h2>
+                    <p>+506 8517 9226</p>
+                </article>
+            </section>
+        </div>
+        <section>
+
+            <div id="Formulario">
+                <form method="post" name="formulario" id="formulario">
+                    <legend>Contáctenos</legend>
+                    <br />
+                    <div class="entrada">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" class="form-control" />
+                    </div>
+                    <div class="entrada">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" name="email" id="email" class="form-control">
+                    </div>
+                    <div class="entrada">
+                        <label for="fecha" class="form-label">Fecha de Nacimiento</label>
+                        <input type="date" name="fecha" id="fecha" class="form-control" />
+                    </div>
+                    <div class="entrada">
+                        <input type="radio" id="generoM" name="genero" value="Masculino" class="form-check-input">
+                        <label class="form-check-label" for="generoM">
+                            Masculino
+                        </label>
+                        <input type="radio" id="generoF" name="genero" value="Femenino"
+                            class="form-check-input">
+                        <label class="form-check-label" for="generoF">
+                            Femenino
+                        </label>
+                    </div>
+                    <div class="entrada">
+                        <label for="consulta">Escríbenos tu consulta</label>
+                        <textarea class="form-control" id="consulta" name="consulta"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>Síguenos</h2>
+        <p><a href="https://www.facebook.com/taekwondosoul/?locale=es_LA">Facebook</a></p>
+        <p><a href="https://www.instagram.com/taekwondosoul/">Instagram</a></p>
+        <p><a href="https://www.tiktok.com/@taekwondosoulcr">Tik Tok</a></p>
+    </footer>
+    <script>
+        const formulario = document.querySelector("form")
+        formulario.addEventListener("submit", (event) => {
+            event.preventDefault()
+            const data = Object.fromEntries(new FormData(event.target))
+            console.table(data)
+        })
+    
+        console.log(formulario)
+    </script>
+</body>
+
+</html>

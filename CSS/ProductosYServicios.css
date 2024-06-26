@@ -1,0 +1,60 @@
+main{
+    color: #222223;
+    padding: 15em 10em;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+#video {
+    text-align: center;
+    padding-bottom: 2em;
+}
+#Servicios{
+    background-image: radial-gradient(circle, #D91E2E 45%, #bf0062 100%);
+    color: #F4F4FF;
+    padding: 2em 4em;
+}
+.servicios-container {
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+    justify-content: space-around;
+}
+.servicios-container img{
+    max-width: 50%;
+    height: auto;
+}
+#Horario{
+    text-align: center;
+}
+#Horario img{
+    padding-top: 2em;
+    max-width: 150%;
+}
+#Descripcion{
+    font-size: 2.5em;
+    text-align: center;
+    padding: 2em;
+}
+.productos-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+.producto{
+    background-color: #0f4485;
+    color: #F4F4FF;
+    padding: 2em;
+    text-align: center;
+}
+.producto img{
+    max-width: 100%;
+    height: auto;
+}
+.producto h2, .producto h3, .producto p{
+    font-size: 2em;
+}
+
+
